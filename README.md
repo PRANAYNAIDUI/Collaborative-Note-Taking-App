@@ -30,19 +30,18 @@ A real-time, multi-user collaborative note-taking web application built using **
 
 ## ✅ Module-Wise Progress
 
-| Module                        | Status     | Tasks Completed |
-|------------------------------|------------|------------------|
-| 🔌 WebSocket Setup            | ✅ Complete | 4/4              |
-| 📄 Document Model             | ✅ Complete | 4/4              |
-| 🔁 Real-Time Updates          | ✅ Complete | 4/4              |
-| 🔐 User Authentication        | ⏳ In Progress | 0/4          |
-| 📃 Document List              | ⏳ In Progress | 0/4          |
-| 🕓 Version Control            | ❌ Not Started | 0/4          |
-| 👥 User Presence & Cursor     | ⏳ In Progress | 1/4          |
-| 🔑 Document Permissions       | ⏳ In Progress | 1/4          |
-| ⏪ Version Rollback           | ❌ Not Started | 0/4          |
-| 🎨 UI Enhancements            | ⏳ In Progress | 2/4          |
-| 🧪 Testing                    | ❌ Not Started | 0/4          |
+| Module                        
+| 🔌 WebSocket Setup                      
+| 📄 Document Model                       
+| 🔁 Real-Time Updates                     
+| 🔐 User Authentication               
+| 📃 Document List                     
+| 🕓 Version Control                   
+| 👥 User Presence & Cursor           
+| 🔑 Document Permissions               
+| ⏪ Version Rollback                  
+| 🎨 UI Enhancements                   
+| 🧪 Testing                             
 
 ---
 
