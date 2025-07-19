@@ -1,0 +1,29 @@
+.permission-container {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.permission-select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #eee;
+  margin: 5px 0;
+  border-radius: 4px;
+}
