@@ -1,0 +1,20 @@
+.cursor-indicator {
+    position: absolute;
+    pointer-events: none;
+    background-color: #ff0000;
+    width: 2px;
+    height: 20px;
+    z-index: 1;
+}
+
+.cursor-tooltip {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
