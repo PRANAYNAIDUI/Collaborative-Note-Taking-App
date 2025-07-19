@@ -1,0 +1,28 @@
+// src/hooks/useDocument.js
+import { useEffect, useState } from 'react';
+import io from 'socket.io-client';
+
+const socket = io('http://localhost:5000'); // Replace with your backend URL
+
+const useDocument = () => {
+  const [document, setDocument] = useState(null);
+
+  useEffect(() => {
+    // Listen for document update events
+    const handleDocumentUpdate = (updatedDocument) => {
+      setDocument(updatedDocument);
+    };
+
+    // Listen for document events from the server
+    socket.on('document:update', handleDocumentUpdate);
+
+    // Cleanup function to remove the listener
+    return () => {
+      socket.off('document:update', handleDocumentUpdate);
+    };
+  }, []);
+
+  return document;
+};
+
+export default useDocument;
